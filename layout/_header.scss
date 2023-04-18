@@ -1,0 +1,44 @@
+.nav-wraper{
+    width: 100%;
+    padding: 1rem;
+    display: flex; 
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #DB83A3;
+    padding: 1rem 1.5rem;
+   
+}
+
+.titulo{
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;    
+}
+nav #toggle, nav label{
+    display: none;
+
+}

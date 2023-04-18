@@ -1,0 +1,35 @@
+.fondoFooterIndex{
+    background-color:  #DB83A3 ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.divFooterIndex1{
+    padding: 20px;
+}
+.divFooterIndex1{
+    ul li{
+    display: inline-block;
+    gap: 1rem;
+
+}
+}
+.divFooterIndex2{
+    padding: 1rem;
+}
+.divFooterIndex2{
+    ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+}
+
+.divFooterIndex3{
+    padding: 1rem;
+}
+.textoColor{
+    color: #000;
+    font-family: 'League Spartan', sans-serif;
+}

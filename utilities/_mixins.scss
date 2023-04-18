@@ -1,0 +1,15 @@
+@mixin flex($padding,$width,$justify){
+    display: flex;
+    padding:$padding ;
+    width:$width ;
+    justify-content:$justify ; 
+}
+
+@mixin grid($gtc,$gtr,$gta,$height,$margin){
+    display: grid;
+    grid-template-columns: $gtc;
+    grid-template-rows: $gtr;
+    grid-template-areas: $gta;
+    height: $height;
+    margin-top: $margin;
+}

@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Montserrat&family=Old+Standard+TT:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DB83A3;
+}
+.nav-wraper{
+    width: 100%;
+    padding: 1rem;
+    display: flex; 
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #DB83A3;
+    padding: 1rem 1.5rem;
+   
+}
+
+.titulo{
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;    
+}
+nav #toggle, nav label{
+    display: none;
+
+}
+
+
+.fondoMainIndex{
+    background-image: url("../assets/foto-de-fondo.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+.catalogoIndex{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-weight:bolder ;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-right: 500px;
+    padding-bottom: 0px;
+    padding-left: 500px; 
+}
+
+.catalogo2Index{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-weight:bold;
+    padding-top: 0px;
+    padding-left: 600px;
+    
+}
+.fondoFooterIndex{
+    background-color:  #DB83A3 ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.divFooterIndex1{
+    padding: 20px;
+}
+.divFooterIndex1{
+    ul li{
+    display: inline-block;
+    gap: 1rem;
+
+}
+}
+.divFooterIndex2{
+    padding: 1rem;
+}
+.divFooterIndex2{
+    ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+}
+
+.divFooterIndex3{
+    padding: 1rem;
+}
+.textoColor{
+    color: #000;
+    font-family: 'League Spartan', sans-serif;
+}
+.headerCatalogo{
+    font-family: 'League Spartan', sans-serif;
+    padding: 20px;
+    background-color: #DB83A3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+/* .h2Catalogo p{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    margin-right: 900px;
+    margin-left: 100px;
+    padding: 5px;  
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    
+}
+
+
+
+.sectionCatalogo div img{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+
+.h2Catalogo{ 
+    p{
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+}
+
+.sectionCatalogo{ 
+    img{
+    padding: 10px;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+}
+
+
+.footerCatalogo{
+    ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-left: 400px;
+}
+}
+.footerCatalogo{
+    ul li a{
+    text-decoration: none;
+    font-family:'League Spartan', sans-serif ;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+}
+.h2-locales{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.pLocales{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;    
+    padding: 5px;
+    margin-left: 410px;
+}
+.fondoMainLocales{
+    background-color: #DB83A3;
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.mainContactos{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.ul1Contactos{
+     li a{
+    display: inline-block;
+    list-style: none;
+    gap: 1rem;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    font-family:'League Spartan', sans-serif;
+    
+}
+}
+.conteiner{ 
+    div ul {
+    height: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: none;
+}
+}
+.mainSN{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 23px;
+    width: 100%;
+    background-image: url("../assets/buzos-foto.jpg");
+    padding: 20px;
+    
+}
+.footerSN{
+    ul {
+        margin-left: 300px;
+}
+}
+@media (max-width: 768px){
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        padding: 0.5rem 0;
+
+    }
+    nav label{
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+        align-items: end;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+        align-items: end;
+        gap: 2rem;
+    }
+    .fondoMainIndex{
+        background-image: url("../assets/foto-de-fondo.jpg");
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .catalogoIndex{
+    padding-top: 150px;
+    padding-right: 500px;
+    padding-bottom: 0px;
+    padding-left: 250px;
+    }
+    .catalogo2Index{
+    padding-left:350px;
+    }
+    .fondoFooterIndex div{
+        font-size: 10px;
+    }
+    .divFooterIndex2{
+        font-size: 50px;
+    }
+    .h2Catalogo p{
+      margin-left: 300px;
+      margin-right: 300px;
+     
+    }
+    .sectionCatalogo img{
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
+    .footerCatalogo ul{
+        margin-left: 150px;
+    }
+    .h2-locales{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .pLocales{
+        margin-left: 250px;
+    }
+    .footerSN{
+        font-size: 12px;
+        
+    }
+}
+@media (max-width: 320px){
+
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 15px;
+    }
+
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        padding: 0.5rem 0;
+
+    }
+    nav label{
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+        align-items: end;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+        align-items: end;
+    }
+    .fondoMainIndex{
+        background-image: url("../assets/foto-de-fondo.jpg");
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .catalogoIndex{
+        padding-top: 150px;
+        padding-right: 500px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+        }
+        .catalogo2Index{
+        padding-left:130px;
+        }
+        .fondoFooterIndex div{
+            font-size: 10px;
+        }
+        .divFooterIndex2{
+            display: none;
+        }
+
+        .h2Catalogo p{
+            margin-left:90px ;
+            margin-right:90px ;
+        }
+        .sectionCatalogo img{
+            width: 200px;
+            height: 200px;
+            margin-left: 60px;
+        }
+        .footerCatalogo ul{
+            margin-left: 20px;
+            gap: 1rem;
+            font-size: 10px;
+        }
+        .h2-locales{
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+        .pLocales{
+            margin-left: 50px;
+        }
+        .mainContactos{
+            flex-direction: column;
+        }
+        .div1contactos{
+            font-size: 12px;
+        }
+        .conteiner nav ul li a{
+            display: none;
+            
+        }
+        .mainSN{
+            font-size: 12px;
+        }
+        .footerSN nav ul li a{
+            font-size: 6px;
+        }
+}   
