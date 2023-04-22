@@ -1,8 +1,30 @@
-.mainSN{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 23px;
-    width: 100%;
-    background-image: url("../assets/buzos-foto.jpg");
-    padding: 20px;
+// .mainSN{
+//     font-family: 'League Spartan', sans-serif;
+//     font-size: 23px;
+//     width: 100%;
+//     background-image: url("../assets/buzos-foto.jpg");
+//     padding: 20px;
     
+// }
+
+
+.textoSN{
+    position: absolute;
+    top: 50%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../assets/buzos-foto.jpg);
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
 }

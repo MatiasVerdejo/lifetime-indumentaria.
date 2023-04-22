@@ -1,26 +1,24 @@
 .h2-locales{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+    text-decoration: none;
     font-family: 'League Spartan', sans-serif;
     font-weight: lighter;
     color: white;
-    display: flex;
-    justify-content: center;
     background-color: black;
     border-radius: 5px;
-    margin-bottom: 20px;
     padding: 5px;
-    margin-left: 550px;
-    margin-right: 550px;
+   
+}
 }
 
 .pLocales{
     font-family: 'League Spartan', sans-serif;
     font-weight: lighter;    
     padding: 5px;
-    margin-left: 410px;
-}
-.fondoMainLocales{
-    display: flex;
-    padding: 40px;
-    width: 100%;
-    justify-content: space-between;
+    
 }

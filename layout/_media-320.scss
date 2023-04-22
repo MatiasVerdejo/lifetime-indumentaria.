@@ -51,39 +51,21 @@
             display: none;
         }
 
-        .h2Catalogo p{
-            margin-left:90px ;
-            margin-right:90px ;
+        .headerCatalogo{
+            font-size: 20px;
         }
-        .sectionCatalogo img{
-            width: 200px;
-            height: 200px;
-            margin-left: 60px;
-        }
-        .footerCatalogo ul{
-            margin-left: 20px;
-            gap: 1rem;
-            font-size: 10px;
-        }
-        .h2-locales{
-            margin-left: 90px;
-            margin-right: 90px;
-        }
-        .pLocales{
-            margin-left: 50px;
-        }
+        
         .mainContactos{
-            flex-direction: column;
+            flex-direction: row;
         }
         .div1contactos{
             font-size: 12px;
         }
-        .conteiner nav ul li a{
-            display: none;
+     
+        .textoSN{
+            font-size: 10px;
+            top: 40%;
             
-        }
-        .mainSN{
-            font-size: 12px;
         }
         .footerSN nav ul li a{
             font-size: 6px;
